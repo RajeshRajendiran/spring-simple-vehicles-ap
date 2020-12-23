@@ -27,20 +27,20 @@ Setup
     
 ### Sample Response 
 
-   [
-        {
-          "id": "7533a0d3-d1a3-4f4b-97dd-454cdc651867",
-          "vehicleIdentityNumber": "Reg#6789",
-          "make": "Tesla",
-          "model": "Model S"
-        },
-        {
-          "id": "fc7789ff-4925-426d-9a80-7dc1bd1f1065",
-          "vehicleIdentityNumber": "Reg#1234",
-          "make": "Audi",
-          "model": "Q5"
-        }
-    ]
+`[
+{
+"id": "7533a0d3-d1a3-4f4b-97dd-454cdc651867",
+"vehicleIdentityNumber": "Reg#6789",
+"make": "Tesla",
+"model": "Model S"
+},
+{
+"id": "fc7789ff-4925-426d-9a80-7dc1bd1f1065",
+"vehicleIdentityNumber": "Reg#1234",
+"make": "Audi",
+"model": "Q5"
+}
+]`
     
     
 2) URL: POST - http://localhost:8088/app/vehicles
